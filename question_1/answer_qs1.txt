@@ -1,0 +1,58 @@
+Question 1.1: User Identity Verification
+
+The commands executed for each question:
+1. whoami
+2. groups
+Corresponding outputs:
+1. mifta
+2. mifta adm dialout cdrom floppy sudo audio dip video plugdev users netdev
+
+Explanation as described below:
+whoami: I used the whoami command to find my login username. This command ouput my computers username "mifta" which is my name and username for my account.
+groups: This command showed my all usergorups that my user account "mifta" belongs to. I observed a list of all group names including my main user group. 
+
+Question 1.2: Workspace Validation
+The commands executed for each question:
+1. pwd
+2. ls -l
+
+Corresponding outputs:
+1. /mnt/d/My PC/Desktop/lab_1
+2. total 0
+-rwxrwxrwx 1 mifta mifta   79 Jan  4 00:33 README.md
+drwxrwxrwx 1 mifta mifta 4096 Jan  4 00:52 question_1
+drwxrwxrwx 1 mifta mifta 4096 Jan  4 00:42 question_2
+drwxrwxrwx 1 mifta mifta 4096 Jan  4 00:42 question_3
+drwxrwxrwx 1 mifta mifta 4096 Jan  4 00:42 question_4
+
+Explanation as described below:
+1. This command shows the current working directory. I observed that it printed the full path where I am currently located in my folder.
+2. This command lists all files and directories in the current location in long format, showing permissions, owner, size, and modification date. I observed a detailed list of files and folders in the directory.
+
+
+Question 1.3: Environment Confirmation File
+The commands executed for each question:
+1. echo "Linux user environment verified" > user_info.txt
+2. cat user_info.txt
+
+Corresponding outputs:
+2. Linux user environment verified
+
+Explanation as described below:
+1. This command creates a file named user_info.txt and writes the line “Linux user environment verified” into it. I observed that the file was created in the current directory.
+2. This command displays the content of user_info.txt. I observed that it correctly showed the line: Linux user environment verified.
+
+Question 1.4: File Integrity Check
+The commands executed for each question:
+1. wc -m user_info.txt
+
+Corresponding outputs:
+1. 32 user_info.txt
+
+Explanation as described below:
+1. This command counts the number of characters in user_info.txt. I observed that it displayed the total character count, including spaces and punctuation.
+
+
+
+
+
